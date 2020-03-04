@@ -113,7 +113,8 @@ div {
 }
 
 .box1 {
-  /*border-width en border-color werken niet als je er geen border-style aan toevoegt!!!!!!!!!!!!!!!!!!!!!*/
+  /*border-width en border-color werken niet als je er geen border-style aan toevoegt!!!!!!!!!!!!!!!!!!!!!
+    ----------OF: border shorthand: "border:solid 10px" bvb------------*/
   border-color: black;
   border-style: solid dotted;
   border-width: 0px 10px 20px 30px;
@@ -130,6 +131,31 @@ div {
 .box3 {
   margin-left: 480px;
   margin-bottom: 50px;
+}
+
+.boxB {
+  height: 100px;
+  width: 100px;
+}
+
+.box4 {
+  background-color: red;
+  /* oplossing kan ook door alledrie de elementen "display: inline-block" mee te geven*/
+  position: relative;
+  left: 200px;
+}
+
+.box5 {
+  background-color: blue;
+  position: relative;
+  top: -100px;
+}
+
+.box6 {
+  background-color: yellow;
+  position: relative;
+  left: 100px;
+  top: -200px;
 }
 
 /*-------------ID SELECTORS----------------*/
