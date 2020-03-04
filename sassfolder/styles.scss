@@ -2,7 +2,9 @@
 --------------class with dot, id with hashtag-------- element can have more than one class at the same time----
 ---use id selectors sparingly or not at all--------*/
 
-
+/*----QUESTIONS-----------------
+---- Hoe overlappen margins elkaar? ---------------------
+*/
 
 
 @import 'partial';
@@ -11,20 +13,35 @@
 
 /*-------------TAG SELECTORS----------------*/
 body {
-    margin: 0;
+    margin: 0; /*default "user agent stylesheet" is 8px margin */
 }
 
 h1 {
     margin-top: 0;
+    color: $darkPhtaloGreen;
 }
 
+a {
+    text-decoration: none;
+    color: $secondCoral;
+}
 
 ul {
     list-style: none;
 }
 
 p{
-    color: $darkRedBrown;
+    color: $darkPhtaloGreen;
+}
+form {
+    color: $darkPhtaloGreen;
+}
+input {
+    color: $darkPhtaloGreen;
+}
+
+.dark p {
+    color: $secondYellow;
 }
 
 hr {
@@ -34,24 +51,37 @@ hr {
     border-top-style: dotted;
     border-width: 5px;
     width: 5%; /*breedte van de lijn over de pagina*/
+    height: 5px;
    /* height: 2px; gekleurde solid lijn hr zonder style is niet zichtbaar als hoogte nul is*/
    /* background-color: $bgDirtyOchre; kleur vd solid lijn, onder border*/ 
 }
 
 
+div {
+    background-color: gray;
+}
+
 /*-------------CLASS SELECTORS----------------*/
+
 .home {
     background-color: $skinPink;
 }
-
 .about{
     background-color: $orange;
 }
-
 .contact {
     background-color: $offWhite;
 }
+.artpage {
+    background-color: $mainDarkViolet ;
+}
+.codepage {
+    background-color: $mainPetrolBlue;
+}
 
+.headingart {
+    color: $secondCoral;
+}
 
 .main-container {
     background-color: $mainPetrolBlue;
@@ -59,6 +89,30 @@ hr {
     padding: 20px;
 }
 
+.box {
+    height: 200px;
+    width: 200px;
+    background: mediumslateblue;
+    
+}
+
+.box1 {  /*border-width en border-color werken niet als je er geen border-style aan toevoegt!!!!!!!!!!!!!!!!!!!!!*/
+    border-color: black;
+    border-style: solid dotted;
+    border-width: 0px 10px 20px 30px;  /*GEEN KOMMA'S---------------*/
+}
+
+.box2 {
+    border-color: grey;
+    border-style: solid dashed;
+    border-width: 0px 20px;
+    margin-left: 240px;
+}
+
+.box3 {
+    margin-left: 480px;
+    margin-bottom: 50px;
+}
 /*-------------ID SELECTORS----------------*/
 
 

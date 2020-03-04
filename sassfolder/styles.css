@@ -1,6 +1,9 @@
 /*----GENERAL INFO-------
 --------------class with dot, id with hashtag-------- element can have more than one class at the same time----
 ---use id selectors sparingly or not at all--------*/
+/*----QUESTIONS-----------------
+---- Hoe overlappen margins elkaar? ---------------------
+*/
 /*COLOURS*/
 /*---painting "Headlight" Colours:------------*/
 /*---main colours:------------*/
@@ -22,10 +25,17 @@ td {
 /*-------------TAG SELECTORS----------------*/
 body {
   margin: 0;
+  /*default "user agent stylesheet" is 8px margin */
 }
 
 h1 {
   margin-top: 0;
+  color: #314e56;
+}
+
+a {
+  text-decoration: none;
+  color: #bc4974;
 }
 
 ul {
@@ -33,7 +43,19 @@ ul {
 }
 
 p {
-  color: #2d1a22;
+  color: #314e56;
+}
+
+form {
+  color: #314e56;
+}
+
+input {
+  color: #314e56;
+}
+
+.dark p {
+  color: #e9ea77;
 }
 
 hr {
@@ -44,8 +66,13 @@ hr {
   border-width: 5px;
   width: 5%;
   /*breedte van de lijn over de pagina*/
+  height: 5px;
   /* height: 2px; gekleurde solid lijn hr zonder style is niet zichtbaar als hoogte nul is*/
   /* background-color: $bgDirtyOchre; kleur vd solid lijn, onder border*/
+}
+
+div {
+  background-color: gray;
 }
 
 /*-------------CLASS SELECTORS----------------*/
@@ -61,10 +88,48 @@ hr {
   background-color: #f1ebde;
 }
 
+.artpage {
+  background-color: #482c63;
+}
+
+.codepage {
+  background-color: #003f5c;
+}
+
+.headingart {
+  color: #bc4974;
+}
+
 .main-container {
   background-color: #003f5c;
   margin: 50px;
   padding: 20px;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background: mediumslateblue;
+}
+
+.box1 {
+  /*border-width en border-color werken niet als je er geen border-style aan toevoegt!!!!!!!!!!!!!!!!!!!!!*/
+  border-color: black;
+  border-style: solid dotted;
+  border-width: 0px 10px 20px 30px;
+  /*GEEN KOMMA'S---------------*/
+}
+
+.box2 {
+  border-color: grey;
+  border-style: solid dashed;
+  border-width: 0px 20px;
+  margin-left: 240px;
+}
+
+.box3 {
+  margin-left: 480px;
+  margin-bottom: 50px;
 }
 
 /*-------------ID SELECTORS----------------*/
