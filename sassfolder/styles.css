@@ -1,0 +1,71 @@
+/*----GENERAL INFO-------
+--------------class with dot, id with hashtag-------- element can have more than one class at the same time----
+---use id selectors sparingly or not at all--------*/
+/*COLOURS*/
+/*---painting "Headlight" Colours:------------*/
+/*---main colours:------------*/
+/*voor herhalingen, gebruik ook %extend */
+iframe {
+  border: 5px double #003f5c;
+}
+
+iframe:hover {
+  border-style: none;
+  margin: 5px;
+  /*border en border-none moeten elkaar compenseren of ze veranderen van plaats*/
+}
+
+td {
+  padding: 2em;
+}
+
+/*-------------TAG SELECTORS----------------*/
+body {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  color: #2d1a22;
+}
+
+hr {
+  /* BEST PRACTICE all the styles in one element in alphabetical order*/
+  border-color: #c8a668;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  /*breedte van de lijn over de pagina*/
+  /* height: 2px; gekleurde solid lijn hr zonder style is niet zichtbaar als hoogte nul is*/
+  /* background-color: $bgDirtyOchre; kleur vd solid lijn, onder border*/
+}
+
+/*-------------CLASS SELECTORS----------------*/
+.home {
+  background-color: #f3dad3;
+}
+
+.about {
+  background-color: #f3a172;
+}
+
+.contact {
+  background-color: #f1ebde;
+}
+
+.main-container {
+  background-color: #003f5c;
+  margin: 50px;
+  padding: 20px;
+}
+
+/*-------------ID SELECTORS----------------*/
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,64 @@
+/*----GENERAL INFO-------
+--------------class with dot, id with hashtag-------- element can have more than one class at the same time----
+---use id selectors sparingly or not at all--------*/
+
+
+
+
+@import 'partial';
+@import 'common';
+
+
+/*-------------TAG SELECTORS----------------*/
+body {
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+
+ul {
+    list-style: none;
+}
+
+p{
+    color: $darkRedBrown;
+}
+
+hr {
+    /* BEST PRACTICE all the styles in one element in alphabetical order*/
+    border-color: $bgDirtyOchre;
+    border-style: none ;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%; /*breedte van de lijn over de pagina*/
+   /* height: 2px; gekleurde solid lijn hr zonder style is niet zichtbaar als hoogte nul is*/
+   /* background-color: $bgDirtyOchre; kleur vd solid lijn, onder border*/ 
+}
+
+
+/*-------------CLASS SELECTORS----------------*/
+.home {
+    background-color: $skinPink;
+}
+
+.about{
+    background-color: $orange;
+}
+
+.contact {
+    background-color: $offWhite;
+}
+
+
+.main-container {
+    background-color: $mainPetrolBlue;
+    margin: 50px;
+    padding: 20px;
+}
+
+/*-------------ID SELECTORS----------------*/
+
+

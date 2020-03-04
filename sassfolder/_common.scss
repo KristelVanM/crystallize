@@ -1,0 +1,15 @@
+
+/*voor herhalingen, gebruik ook %extend */
+
+iframe {
+    border:5px double $mainPetrolBlue;
+}
+
+iframe:hover {
+    border-style: none;
+    margin: 5px; /*border en border-none moeten elkaar compenseren of ze veranderen van plaats*/
+}
+
+td {
+    padding: 2em;
+}
