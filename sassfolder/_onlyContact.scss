@@ -1,0 +1,19 @@
+form {
+    color: $darkPhtaloGreen;
+}
+input {
+    color: $darkPhtaloGreen;
+}
+
+hr {
+    /* BEST PRACTICE all the styles in one element in alphabetical order*/
+    border-color: $bgDirtyOchre;
+    border-style: none ;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%; /*breedte van de lijn over de pagina*/
+    height: 5px;
+   /* height: 2px; gekleurde solid lijn hr zonder style is niet zichtbaar als hoogte nul is*/
+   /* background-color: $bgDirtyOchre; kleur vd solid lijn, onder border*/ 
+}
+
