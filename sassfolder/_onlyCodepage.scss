@@ -7,7 +7,7 @@ body.codepage {
 }
 .codeNav {
     text-align: right;
-    margin: 20px;
+    margin: 30px;
     padding: 0 auto;
     color: $duskyCoral;
 }
@@ -22,18 +22,25 @@ h1#codeH {
 }
 
 h2 {
-    margin-top: 100px;
+    margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     font-weight: normal;
     color: $secondCoral;
 }
+
+.intro {
+    width: 30%;
+    margin: 0 auto;
+}
+
 p.obvious {
     color: $secondYellow;
 }
 
 p {
     color: $bgDirtyOchre;
+    line-height: 2;
 }
 
 h3 {
@@ -122,4 +129,63 @@ div.profile{
 
 .bottom-container {
     margin-top: 100px;
+    background-color: $mainPetrolBlue;
+    padding: 50px 0 20px;
+}
+/*PADDING -----verwar 0 niet met 'auto'-----------!!!!!!!!!!!!!!!*/
+
+a.btn{
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: rgb(247, 238, 214);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 18px;
+    /*box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 0px;*/
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 15px;
+        }
+        
+
+a.btn:hover {
+    color: rgb(247, 238, 214); /*dit hier herhalen want anders overschrijft de andere a:hover de kleur*/
+    border: solid #337FED 0px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2CB4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2CB4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2CB4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2CB4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2CB4AD);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+        }
+
+a{
+    font-family:'Montserrat', sans-serif;
+    margin:10px 20px;
+}
+
+a:hover {
+    color: #e690af;
+}
+
+.copy {
+    font-size: 0.75rem;
 }

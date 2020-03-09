@@ -58,7 +58,7 @@ body.codepage {
 
 .codeNav {
   text-align: right;
-  margin: 20px;
+  margin: 30px;
   padding: 0 auto;
   color: #bf6d71;
 }
@@ -75,11 +75,16 @@ h1#codeH {
 }
 
 h2 {
-  margin-top: 100px;
+  margin-top: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: normal;
   color: #bc4974;
+}
+
+.intro {
+  width: 30%;
+  margin: 0 auto;
 }
 
 p.obvious {
@@ -88,6 +93,7 @@ p.obvious {
 
 p {
   color: #c8a668;
+  line-height: 2;
 }
 
 h3 {
@@ -176,6 +182,55 @@ div.profile {
 
 .bottom-container {
   margin-top: 100px;
+  background-color: #003f5c;
+  padding: 50px 0 20px;
+}
+
+/*PADDING -----verwar 0 niet met 'auto'-----------!!!!!!!!!!!!!!!*/
+a.btn {
+  background: #11CDD4;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  border-radius: 8px;
+  color: #f7eed6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 18px;
+  /*box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 0px;*/
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 15px;
+}
+
+a.btn:hover {
+  color: #f7eed6;
+  /*dit hier herhalen want anders overschrijft de andere a:hover de kleur*/
+  border: solid #337FED 0px;
+  background: #30E3CB;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2CB4AD));
+  background-image: linear-gradient(to bottom, #30E3CB, #2CB4AD);
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #e690af;
+}
+
+.copy {
+  font-size: 0.75rem;
 }
 
 /*-------------TAG SELECTORS----------------*/
