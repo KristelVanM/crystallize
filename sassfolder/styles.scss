@@ -33,22 +33,25 @@ ul {
     padding-inline-start: 0;
 }
 
+/*------------LIGHT PAGES----------DARK FONTS----------------------*/
+/*p {
+    color: $darkPhtaloGreen;
+}*/
 
 /*------------DARK PAGES----------LIGHT FONTS----------------------*/
-p {
-    color: $darkPhtaloGreen;
-}
-
-/*------------LIGHT PAGES----------DARK FONTS----------------------*/
-
+/*
 .dark p {
     color: $secondYellow;
 }
+*/
 
 
+/*
 div {
     background-color: gray;
 }
+*/
+
 
 /*-------------CLASS SELECTORS----------------*/
 /*--------------------BACKGROUND COLOR FOR EACH PAGE----------------------*/
@@ -64,8 +67,8 @@ div {
 .artpage {
     background-color: $mainDarkViolet ;
 }
-.codepage {
-    background-color: $mainPetrolBlue;
+.codepage.dark {
+    background-color: $darkPhtaloGreen;
 }
 /*-------------------------------------------------------------------------*/
 

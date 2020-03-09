@@ -2,29 +2,50 @@
 
 body.codepage {
     text-align: center;
-    font-family: 'Merriweather', serif;
-   
+    font-family: 'Merriweather', serif;   
+    position: relative;
 }
-h1 {
-    margin-top: 0;
+.codeNav {
+    text-align: right;
+    margin: 20px;
+    padding: 0 auto;
+    color: $duskyCoral;
+}
+h1#codeH {
+    margin: 30px auto 0px auto;
+    /*margin-top: 0;
     margin-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 30px;*/
     font-family: 'Sacramento', cursive;
-    font-size: 5em;
+    font-size: 5.5em; /* is ongeveer  = 90px  ------ 100% = 16px = 1 (r)em--- 90px = 562% ---alleen rem is onafhankelijk v parent én accessible-*/
+    color: $secondCoral;
 }
 
 h2 {
+    margin-top: 100px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: $secondCoral;
+}
+p.obvious {
+    color: $secondYellow;
+}
+
+p {
+    color: $bgDirtyOchre;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
 
 
 .top-container {
     position: relative;
-    padding-top: 100px; 
+    
+    background-color: $darkPhtaloGreen; /*de rest vd div is nog grijs*/
 }
 
 .top-cloud {
@@ -39,22 +60,66 @@ h3 {
     bottom: 300px;
 }
 
+div.profile{
+    padding: 100px auto; /*dit wordt overschreven door iets*/
+    margin-bottom: 150px;
+
+}
 .profile img {
     width: 200px;
     height: auto;
     border-radius: 50%;
 }
 
-.skill-row img {
-    width: 200px;
-    border-radius: 50%;
-
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
 }
 
-.middle-container {
 
+
+.kitty1 {
+    width: 25%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+.kitty2 {
+    width: 25%; /*scales de twee prentjes even groot, nl 25% tov de parent, zelfs als ze eerst verschillende groottes hadden*/
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+} 
+
+/*PROBLEMEN MET DEER-VIDEO----- h3 duwt met margin de div/tekst eronder naar beneden, de video lijkt uit de flow te zijn, de marge van h3 zit niet in de parent div inbegrepen*/ 
+/*overschrijft skill-row margin */
+.skill-row.deer {
+    margin-bottom: 100px;
+}
+
+#deerh3 {
+    display: inline-block;
+     margin-top: 0; 
+     padding-right: 0;  
+     margin-bottom: 250px;
+     padding-left: 30px;
+     
+}
+.deervideo {
+    width: 25%;
+    height: auto;
+    float: left;  
+}
+
+
+/*class codepage op body is petrolblauw in styles.css*/
+.middle-container {
+    background-color: $darkPhtaloGreen; /*div 'profile' die IN div 'middle-container zit is nog altijd grijs, neemt kleur v styles.css*/
+    margin-top: 150px;
 }
 
 .bottom-container {
-
+    margin-top: 100px;
 }
