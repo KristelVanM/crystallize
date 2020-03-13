@@ -11,39 +11,16 @@
 @import 'onlyIndex';
 @import 'onlyContact';
 @import 'onlyCodepage';
-
+@import 'forEveryone';
 
 /*-------------TAG SELECTORS----------------*/
-body {
-    margin: 0; /*default "user agent stylesheet" is 8px margin */
-}
+
 
 h1 {
     margin-top: 0;
     color: $darkPhtaloGreen;
 }
 
-a {
-    text-decoration: none;
-    color: $secondCoral;
-}
-
-ul {
-    list-style: none;
-    padding-inline-start: 0;
-}
-
-/*------------LIGHT PAGES----------DARK FONTS----------------------*/
-/*p {
-    color: $darkPhtaloGreen;
-}*/
-
-/*------------DARK PAGES----------LIGHT FONTS----------------------*/
-/*
-.dark p {
-    color: $secondYellow;
-}
-*/
 
 
 /*
@@ -54,23 +31,7 @@ div {
 
 
 /*-------------CLASS SELECTORS----------------*/
-/*--------------------BACKGROUND COLOR FOR EACH PAGE----------------------*/
-.home {
-    background-color: $skinPink;
-}
-.about{
-    background-color: $orange;
-}
-.contact {
-    background-color: $offWhite;
-}
-.artpage {
-    background-color: $mainDarkViolet ;
-}
-.codepage.dark {
-    background-color: $darkPhtaloGreen;
-}
-/*-------------------------------------------------------------------------*/
+
 
 
 .headingart {

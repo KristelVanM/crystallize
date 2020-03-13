@@ -239,11 +239,6 @@ body {
   /*default "user agent stylesheet" is 8px margin */
 }
 
-h1 {
-  margin-top: 0;
-  color: #314e56;
-}
-
 a {
   text-decoration: none;
   color: #bc4974;
@@ -255,22 +250,16 @@ ul {
           padding-inline-start: 0;
 }
 
-/*------------LIGHT PAGES----------DARK FONTS----------------------*/
+/*------------LIGHT PAGES-----DARK FONTS----------------------*/
 /*p {
     color: $darkPhtaloGreen;
 }*/
-/*------------DARK PAGES----------LIGHT FONTS----------------------*/
+/*------------DARK PAGES-----LIGHT FONTS----------------------*/
 /*
 .dark p {
     color: $secondYellow;
 }
 */
-/*
-div {
-    background-color: gray;
-}
-*/
-/*-------------CLASS SELECTORS----------------*/
 /*--------------------BACKGROUND COLOR FOR EACH PAGE----------------------*/
 .home {
   background-color: #f3dad3;
@@ -293,6 +282,18 @@ div {
 }
 
 /*-------------------------------------------------------------------------*/
+/*-------------TAG SELECTORS----------------*/
+h1 {
+  margin-top: 0;
+  color: #314e56;
+}
+
+/*
+div {
+    background-color: gray;
+}
+*/
+/*-------------CLASS SELECTORS----------------*/
 .headingart {
   color: #bc4974;
 }
